@@ -17,28 +17,28 @@
     }
 Проверить, чтобы все работало без ошибок в консоли */
 
-"use strict";
+// "use strict";
 // 1)
-const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+// const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
 // 2)
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false,
-};
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   privat: false,
+// };
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
 
 // 3)
-const question1 = prompt("Один из последних просмотренных фильмов?", ""),
-  question2 = prompt("На сколько оцените его?", ""),
-  question3 = prompt("Один из последних просмотренных фильмов?", ""),
-  question4 = prompt("На сколько оцените его?", "");
+// const question1 = prompt("Один из последних просмотренных фильмов?", ""),
+//   question2 = prompt("На сколько оцените его?", ""),
+//   question3 = prompt("Один из последних просмотренных фильмов?", ""),
+//   question4 = prompt("На сколько оцените его?", "");
 
-personalMovieDB.movies[question1] = question2;
-personalMovieDB.movies[question3] = question4;
+// personalMovieDB.movies[question1] = question2;
+// personalMovieDB.movies[question3] = question4;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
