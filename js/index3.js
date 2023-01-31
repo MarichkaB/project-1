@@ -74,3 +74,28 @@ function writeYourGenres() {
 }
 
 // writeYourGenres();
+
+function fib(num) {
+  if (typeof num !== "number" || num < 0 || !numberOfFilms.isInteger(num)) {
+    return "";
+  }
+
+  const result = [];
+
+  const fibFirstNumbers = [0, 1];
+
+  for (let i = 0; i < num; i++) {
+    if (i < 2) {
+      result.push(fibFirstNumbers[i]);
+    } else {
+      const firstNum = result[i - 2];
+      const secondNum = result[i - 1];
+
+      result.push(firstNum + secondNum);
+    }
+  }
+
+  return result.join(" ");
+}
+
+// console.log(fib(7));
